@@ -27,7 +27,6 @@
     a {
       padding: 0.35em 0.6em;
       color: var(--header_primary);
-      font-size: var(--font-up-1);
     }
   }
 
@@ -62,6 +61,10 @@
   }
 }
 
+:root {
+  --tw-bg-opacity: 1;
+}
+
 .header-sidebar-toggle {
   display: none;
 }
@@ -74,3 +77,28 @@
   display: none;
 }
 
+.d-header{
+  height: 64px;
+  font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.custom-header-links{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.headerLink {
+  height: 100%;
+  display: flex;
+}
+
+.headerLink a {
+  align-items: center;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.headerLink a:hover {
+  background-color: rgb(240 242 246/var(--tw-bg-opacity));
+}
