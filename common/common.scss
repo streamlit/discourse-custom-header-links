@@ -1,5 +1,6 @@
 .before-header-panel-outlet {
   display: flex;
+  height: 100%;
 }
 
 @if $links_position == "right" {
@@ -81,6 +82,13 @@
   display: none;
 }
 
+
+.wrap {
+  margin: unset;
+  padding: unset;
+  max-width: unset;
+}
+
 .d-header{
   height: 64px;
   font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -102,8 +110,8 @@
 
 
 .title a {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   width: 2rem;
   height: 63px;
   display: inline-flex;
