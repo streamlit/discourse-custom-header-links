@@ -86,7 +86,7 @@
 .d-header > .wrap {
   margin: unset;
   padding: unset;
-  max-width: unset;
+  max-width: unset !important;
 }
 
 .d-header{
@@ -136,4 +136,18 @@
 
 .headerLink a:hover {
   background-color: rgb(240 242 246/var(--tw-bg-opacity));
+}
+
+.sign-up-button {
+  background-color: rgb(28, 131, 225);
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: #fff;
+  color: rgb(28, 131, 225);
+}
+
+.login-button svg{
+  display: none;
 }
