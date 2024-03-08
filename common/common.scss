@@ -139,21 +139,21 @@
 }
 
 .sign-up-button {
-  background-color: rgb(61, 157, 243);
+  background-color: rgb(28 131 225/var(--tw-bg-opacity)) !important;
   border-radius: 5px;
 }
 
 .sign-up-button:hover {
-  background-color: rgb(28, 131, 225)
+  background-color: rgb(61 157 243/var(--tw-bg-opacity)) !important;
 }
 
 .login-button {
-  background-color: #fff;
-  color: rgb(61, 157, 243);
+  background-color: #fff !important;
+  color: rgb(28 131 225/var(--tw-bg-opacity)) !important;
 }
 .login-button:hover {
-  background-color: #fff;
-  color: rgb(28, 131, 225)
+  background-color: #fff !important;
+  color: rgb(61 157 243/var(--tw-bg-opacity)) !important;
 }
 
 .login-button svg{
