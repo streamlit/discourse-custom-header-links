@@ -61,3 +61,101 @@
     width: 100% !important; // overrides very specific selector
   }
 }
+
+.header-sidebar-toggle button .d-icon {
+  color: var(--secondary);
+  width: 2.2857em;
+  height: 2.2857em;
+  font-size: var(--font-0);
+  padding: .2143em;
+}
+
+.btn:active:not(:hover):not(:focus) {
+  background: var(--gray-20);
+}
+
+.btn:active:not(:hover):not(:focus) .d-icon {
+  color: var(--gray-20) !important;
+}
+
+.header-sidebar-toggle button .d-icon:hover {
+  color:var(--gray-20) !important;
+}
+
+// on mobile
+.header-dropdown-toggle button .d-icon {
+  color: var(--secondary) !important;
+}
+
+.header-dropdown-toggle button:hover .d-icon {
+  color: var(--gray-20) !important;
+}
+
+.d-header #site-logo{
+  height: 24px;
+}
+
+.chat-header-icon {
+  display: none;
+}
+
+.search-dropdown {
+  display: none;
+}
+
+.d-header{
+  box-shadow: unset !important;
+}
+
+.headerLink a:hover {
+  color: var(--blue-70);
+}
+
+@media(max-width: 780px) {
+  .hamburgerMenuListHidden {
+    display: none !important;
+  }
+  #hamburger-menu-list {
+    position: absolute;
+    z-index: 999;
+    margin-top: 40px;
+    right: 30px;
+    width: 150px;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 16px;
+    background: var(--secondary);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .custom-header-links{
+    display: block;
+  }
+
+  #hamburger-menu-list li {
+    padding: 0;
+    width: 150px;
+  }
+
+  #hamburger-menu-list li a{
+    padding: 10px 5px;
+    width: 140px;
+    display: flex
+  }
+}
+
+#hamburger-menu {
+  width: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 780px) {
+  #hamburger-menu {
+    display: none;
+  }
+}
+
+.hide-hamburger {
+  display: none;
+}

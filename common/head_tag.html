@@ -1,0 +1,13 @@
+<script type="text/discourse-plugin" version="1.14.0">
+    document.addEventListener( "click", (e)=> {
+       var hamburgerMenu = document.querySelector('#hamburger-menu');
+       var hamburgerMenuList = document.querySelector('#hamburger-menu-list');
+
+       if (hamburgerMenu.contains(e.target)){
+           hamburgerMenuList.classList.toggle('hamburgerMenuListHidden');
+       }
+       else if(!hamburgerMenuList.classList.contains('hamburgerMenuListHidden')) {
+           hamburgerMenuList.classList.add('hamburgerMenuListHidden');
+       }
+   });
+</script>
