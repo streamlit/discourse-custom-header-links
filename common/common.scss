@@ -81,7 +81,7 @@
 }
 
 .header-sidebar-toggle button .d-icon {
-  color: var(--secondary);
+  color: var(--gray-60);
   width: 2.2857em;
   height: 2.2857em;
   font-size: var(--font-0);
@@ -89,7 +89,7 @@
 }
 
 .btn:active:not(:hover):not(:focus) {
-  background: var(--gray-20);
+  background: var(--gray-90);
 }
 
 .btn:active:not(:hover):not(:focus) .d-icon {
