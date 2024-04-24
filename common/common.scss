@@ -47,9 +47,11 @@
   }
 
   .custom-header-links {
-    a {
-      padding: 0.35em 0.2em;
-      font-weight: 100;
+    .headerLink {
+      a {
+        padding: 0.35em 0.2em;
+        font-weight: 100;
+      }
     }
   }
 }
