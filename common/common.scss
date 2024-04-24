@@ -26,7 +26,7 @@
     list-style: none;
     a {
       padding: 0.35em 0.6em;
-      color: var(--header_primary);
+      color: var(--gray-90);
       font-size: var(--font-up-1);
     }
   }
@@ -109,53 +109,4 @@
 
 .headerLink a:hover {
   color: var(--blue-70);
-}
-
-@media(max-width: 780px) {
-  .hamburgerMenuListHidden {
-    display: none !important;
-  }
-  #hamburger-menu-list {
-    position: absolute;
-    z-index: 999;
-    margin-top: 40px;
-    right: 30px;
-    width: 150px;
-    white-space: nowrap;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 16px;
-    background: var(--secondary);
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .custom-header-links{
-    display: block;
-  }
-
-  #hamburger-menu-list li {
-    padding: 0;
-    width: 150px;
-  }
-
-  #hamburger-menu-list li a{
-    padding: 10px 5px;
-    width: 140px;
-    display: flex
-  }
-}
-
-#hamburger-menu {
-  width: 25px;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
-@media (min-width: 780px) {
-  #hamburger-menu {
-    display: none;
-  }
-}
-
-.hide-hamburger {
-  display: none;
 }
