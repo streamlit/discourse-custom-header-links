@@ -4,18 +4,8 @@
     and this Theme's compatibility file is updated
   }}
 
-    <div id="hamburger-menu"
-         class={{if
-                 (or @outletArgs.topic @outletArgs.attrs.topic)
-                 'hide-hamburger '
-                }}
-    >
-        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-m9simb" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg>
-    </div>
-
     <ul
-    id="hamburger-menu-list"
-    class="custom-header-links hamburgerMenuListHidden
+    class="custom-header-links
       {{if
         (or @outletArgs.topic @outletArgs.attrs.topic)
         'custom-header-links--hide-links'
