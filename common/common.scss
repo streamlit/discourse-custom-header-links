@@ -41,7 +41,7 @@
   }
 }
 
-@media(max-width: 780px) {
+@media (max-width: 780px) {
   .before-header-panel-outlet {
     margin-left: auto;
   }
@@ -85,7 +85,7 @@
   width: 2.2857em;
   height: 2.2857em;
   font-size: var(--font-0);
-  padding: .2143em;
+  padding: 0.2143em;
 }
 
 .btn:active:not(:hover):not(:focus) {
@@ -97,10 +97,10 @@
 }
 
 .header-sidebar-toggle button .d-icon:hover {
-  color:var(--gray-60) !important;
+  color: var(--gray-60) !important;
 }
 
-.d-header #site-logo{
+.d-header #site-logo {
   height: 24px;
 }
 
@@ -112,7 +112,7 @@
   display: none;
 }
 
-.d-header{
+.d-header {
   box-shadow: unset !important;
 }
 
